@@ -8,10 +8,9 @@
                 <a href="#"><img src="/images/social4.png" class="w-8" alt="LinkedIn"></a>
             </div>
             <div class="mx-auto flex gap-10">
-                <a href="#" class="hover:text-[#e09f3e]">Home</a>
-                <a href="#" class="hover:text-[#e09f3e]">Services</a>
-                <a href="#" class="hover:text-[#e09f3e]">About Us</a>
-                <a href="#" class="hover:text-[#e09f3e]">Contact Us</a>
+                <a href="#home" class="hover:text-[#e09f3e]">Home</a>
+                <a href="#services" class="hover:text-[#e09f3e]">Services</a>
+                <a href="#contact" class="hover:text-[#e09f3e]">Contact Us</a>
             </div>
             <hr>
             <h1>All Rights Reserved</h1>

@@ -1,7 +1,7 @@
 <template>
-  <section class="py-12 bg-white text-center">
+  <section id="services" class="py-12 bg-white text-center">
     <div class="max-w-7xl mx-auto p-2">
-      <h2 class="text-4xl font-bold text-gray-800">Our Expertise</h2>
+      <h2 class="text-4xl font-bold text-gray-800">Service Information</h2>
       <p class="text-lg text-gray-600 mt-4">
         At R-Tech, we are committed to providing businesses with innovative and reliable IT solutions. With years of experience in the industry, our team combines technology, creativity, and expertise to help your business thrive in a digital-first world.
       </p>

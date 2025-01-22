@@ -1,5 +1,5 @@
 <template>
-    <div class="relative w-full bg-cover bg-center flex flex-col items-center justify-center p-12" style="background-image: url('/images/banner.png');">
+    <section id="home" class="relative w-full bg-cover bg-center flex flex-col items-center justify-center p-12" style="background-image: url('/images/banner.png');">
         <div class="absolute inset-0 bg-red-900 bg-opacity-75"></div>
 
         <div class="relative flex flex-col items-center justify-center w-full max-w-4xl w-full mt-20">
@@ -14,7 +14,7 @@
                 Click Me
             </button>
         </div>
-    </div>
+    </section>
 </template>
   
 <script>

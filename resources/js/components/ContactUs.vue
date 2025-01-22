@@ -1,5 +1,5 @@
 <template>
-    <section class="py-12 bg-white text-center p-10 ">
+    <section id="contact" class="py-12 bg-white text-center p-10">
         <div class="w-full mx-auto flex flex-col gap-10">
             <h2 class="text-4xl font-bold text-gray-800">Contact Us</h2>
 
