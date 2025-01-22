@@ -15,16 +15,18 @@
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
         <style>
-            html {
+            html 
+            {
                 scroll-behavior: smooth;
             }
-            .active-link {
+            .active-link 
+            {
                 color: #ffba08;
             }
         </style>
     </head>
     <body>
-        
+
         <div id="app">
             <header-component></header-component>
             <banner-component></banner-component>

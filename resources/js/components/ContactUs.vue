@@ -6,7 +6,6 @@
             <div class="w-full mx-auto p-6">
                 <form action="#" method="POST">
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        <!-- Left Form Fields -->
                         <div class="space-y-4">
                             <div>
                                 <label for="full-name" class="block text-left text-sm font-semibold text-gray-700">Full Name</label>
@@ -24,7 +23,6 @@
                             </div>
                         </div>
 
-                        <!-- Right Textarea -->
                         <div>
                             <div>
                                 <label for="concern" class="block text-left text-sm font-semibold text-gray-700">Concern/Question</label>
@@ -33,7 +31,6 @@
                         </div>
                     </div>
 
-                    <!-- Submit Button -->
                     <div class="mt-6 text-center">
                         <button type="submit" class="w-full md:w-auto px-6 py-3 bg-[#e09f3e] text-white font-semibold rounded-md hover:bg-[#C98F38] focus:outline-none focus:ring-2 focus:ring-blue-500">
                             Submit
