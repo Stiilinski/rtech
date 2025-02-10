@@ -39,10 +39,10 @@
       MAIL_SCHEME=null
       MAIL_HOST=smtp.gmail.com
       MAIL_PORT=465
-      MAIL_USERNAME=stilinskistiles069@gmail.com
-      MAIL_PASSWORD=kfuteogqgsvcbyki
+      MAIL_USERNAME=example@gmail.com
+      MAIL_PASSWORD= (You can get this in the App Password of your Gmail)
       MAIL_ENCRYTION=ssl
-      MAIL_FROM_ADDRESS="stilinskistiles069@gmail.com"
+      MAIL_FROM_ADDRESS="example@gmail.com"
       MAIL_FROM_NAME="${APP_NAME}" "
 
 - Open your XAMPP
