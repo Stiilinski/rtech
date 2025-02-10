@@ -16,7 +16,41 @@
 - Run the command "npm run dev".
 - Open a new terminal and then run the command "cp .env.example .env".
 - After that you run "php artisan key:generate".
-- Open the .env file and change 'SESSION_DRIVER=database' to 'SESSION_DRIVER=file' to avoid database dependencies, as this is just a design template.
+- Go to ".env" file
+- UNCOMMENT the "# APP_MAINTENANCE_STORE=database"
+- UNCOMMENT the Following:
+    " DB_HOST=127.0.0.1
+      DB_PORT=3306
+      DB_DATABASE=laravel
+      DB_USERNAME=root
+      DB_PASSWORD= "
+
+- Then change those to this following:
+    " APP_NAME=R-Tech "
+
+    " DB_CONNECTION=mysql
+      DB_HOST=127.0.0.1
+      DB_PORT=3306
+      DB_DATABASE=rtech
+      DB_USERNAME=root
+      DB_PASSWORD="
+
+    " MAIL_MAILER=smtp
+      MAIL_SCHEME=null
+      MAIL_HOST=smtp.gmail.com
+      MAIL_PORT=465
+      MAIL_USERNAME=stilinskistiles069@gmail.com
+      MAIL_PASSWORD=kfuteogqgsvcbyki
+      MAIL_ENCRYTION=ssl
+      MAIL_FROM_ADDRESS="stilinskistiles069@gmail.com"
+      MAIL_FROM_NAME="${APP_NAME}" "
+
+- Open your XAMPP
+- Click "Start" for both Apache and MySQL.
+- Open localhost/phpmyadmin in your browser.
+- Go to "import" and click "choose file" under "File to Import".
+- Locate the SQL dump file.
+- Go To "database folder" There you can see a SQL dump file called "rtech.sql"
 - Then go back to the terminal where you run the "php artisan serve" command
 - press CTRL and click the "http://127.0.0.1:8000"
 
